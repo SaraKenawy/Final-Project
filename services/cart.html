@@ -1,0 +1,73 @@
+<link rel="stylesheet" href="style.css">
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shopping Cart</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <nav>
+        <h2>E-Commerce</h2>
+
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="login.html">Login</a></li>
+            <li><a href="register.html">Register</a></li>
+        </ul>
+    </nav>
+
+    <section class="cart-container">
+
+        <h1>Shopping Cart</h1>
+
+        <table>
+
+            <thead>
+
+                <tr>
+                    <th>Product</th>
+                    <th>Price</th>
+                    <th>Quantity</th>
+                    <th>Action</th>
+                </tr>
+
+            </thead>
+
+            <tbody id="cart-items">
+
+                <tr>
+
+                    <td>Laptop</td>
+
+                    <td>15000 EGP</td>
+
+                    <td>1</td>
+
+                    <td>
+
+                        <button>
+                            Remove
+                        </button>
+
+                    </td>
+
+                </tr>
+
+            </tbody>
+
+        </table>
+
+        <h2 id="total-price">
+            Total: 15000 EGP
+        </h2>
+
+    </section>
+
+    <script src="ecommerce.js"></script>
+
+</body>
+</html>
